@@ -57,6 +57,7 @@
    ```sh
    kops create cluster --cloud=aws --zones=ap-south-1b --name=demo.k8s.valaxy.net --dns-zone=valaxy.net --dns private 
     ```
+kops create cluster --name=k8s.truffle.life --state=s3://s3.k8s.truffle.life --zones=ap-southeast-1c --node-count=2 --node-size=t2.micro --master-size=t2.micro --dns-zone=k8s.truffle.life
 
 1. Create kubernetes cluser
     ```sh
